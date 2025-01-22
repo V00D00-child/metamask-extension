@@ -10975,6 +10975,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:22.7.5":
+  version: 22.7.5
+  resolution: "@types/node@npm:22.7.5"
+  dependencies:
+    undici-types: "npm:~6.19.2"
+  checksum: 10/e8ba102f8c1aa7623787d625389be68d64e54fcbb76d41f6c2c64e8cf4c9f4a2370e7ef5e5f1732f3c57529d3d26afdcb2edc0101c5e413a79081449825c57ac
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:^12.12.54":
   version: 12.20.55
   resolution: "@types/node@npm:12.20.55"
@@ -19078,6 +19087,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ethers@npm:^6.10.0":
+  version: 6.13.5
+  resolution: "ethers@npm:6.13.5"
+  dependencies:
+    "@adraffy/ens-normalize": "npm:1.10.1"
+    "@noble/curves": "npm:1.2.0"
+    "@noble/hashes": "npm:1.3.2"
+    "@types/node": "npm:22.7.5"
+    aes-js: "npm:4.0.0-beta.5"
+    tslib: "npm:2.7.0"
+    ws: "npm:8.17.1"
+  checksum: 10/ccba21a83679fb6a7c3eb9d187593501565d140064f2db28057a64d6707678bacf2adf4555882c4814688246da73173560df81fd3361fd2f227b5d3c75cb8685
+  languageName: node
+  linkType: hard
+
 "ethers@npm:^6.13.1":
   version: 6.13.2
   resolution: "ethers@npm:6.13.2"
@@ -27028,6 +27052,8 @@ __metadata:
     simple-git: "npm:^3.20.0"
     single-call-balance-checker-abi: "npm:^1.0.0"
     sinon: "npm:^9.0.0"
+    snap-a: "file:./deps/snap-a-0.1.0.tgz"
+    snap-b: "file:./deps/snap-b-0.1.0.tgz"
     source-map: "npm:^0.7.4"
     source-map-explorer: "npm:^2.4.2"
     sprintf-js: "npm:^1.1.3"
@@ -33855,6 +33881,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"snap-a@file:./deps/snap-a-0.1.0.tgz::locator=metamask-crx%40workspace%3A.":
+  version: 0.1.0
+  resolution: "snap-a@file:./deps/snap-a-0.1.0.tgz#./deps/snap-a-0.1.0.tgz::hash=2a07d9&locator=metamask-crx%40workspace%3A."
+  dependencies:
+    "@metamask/snaps-sdk": "npm:^6.10.0"
+    ethers: "npm:^6.10.0"
+  checksum: 10/ef9b2c2b63be2ebba84f93edb8d4ad55727f932123ea9a1902d070563f850faa63df376c43216703c1e171f9be749111f073bb1bf4cec911602514a9066f55d2
+  languageName: node
+  linkType: hard
+
+"snap-b@file:./deps/snap-b-0.1.0.tgz::locator=metamask-crx%40workspace%3A.":
+  version: 0.1.0
+  resolution: "snap-b@file:./deps/snap-b-0.1.0.tgz#./deps/snap-b-0.1.0.tgz::hash=f0e7a3&locator=metamask-crx%40workspace%3A."
+  dependencies:
+    "@metamask/snaps-sdk": "npm:^6.10.0"
+    ethers: "npm:^6.10.0"
+  checksum: 10/980fa353674eb6555d3d7d9ddbc2da2d7edd73a984d2b716596555ee2704ceee450f167d979a92507c12a9983c7f3db253139dca2b875c4f94cb0039a9a9a785
+  languageName: node
+  linkType: hard
+
 "snapdragon-node@npm:^2.0.1":
   version: 2.1.1
   resolution: "snapdragon-node@npm:2.1.1"
@@ -35796,6 +35842,13 @@ __metadata:
   version: 2.4.0
   resolution: "tslib@npm:2.4.0"
   checksum: 10/d8379e68b36caf082c1905ec25d17df8261e1d68ddc1abfd6c91158a064f6e4402039ae7c02cf4c81d12e3a2a2c7cd8ea2f57b233eb80136a2e3e7279daf2911
+  languageName: node
+  linkType: hard
+
+"tslib@npm:2.7.0":
+  version: 2.7.0
+  resolution: "tslib@npm:2.7.0"
+  checksum: 10/9a5b47ddac65874fa011c20ff76db69f97cf90c78cff5934799ab8894a5342db2d17b4e7613a087046bc1d133d21547ddff87ac558abeec31ffa929c88b7fce6
   languageName: node
   linkType: hard
 

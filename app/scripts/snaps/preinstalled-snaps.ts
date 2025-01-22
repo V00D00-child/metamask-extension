@@ -5,6 +5,8 @@ import EnsResolverSnap from '@metamask/ens-resolver-snap/dist/preinstalled-snap.
 import AccountWatcherSnap from '@metamask/account-watcher/dist/preinstalled-snap.json';
 import BitcoinWalletSnap from '@metamask/bitcoin-wallet-snap/dist/preinstalled-snap.json';
 import PreinstalledExampleSnap from '@metamask/preinstalled-example-snap/dist/preinstalled-snap.json';
+import SnapA from 'snap-a/dist/preinstalled-snap.json';
+import SnapB from 'snap-b/dist/preinstalled-snap.json';
 ///: END:ONLY_INCLUDE_IF
 ///: BEGIN:ONLY_INCLUDE_IF(solana)
 import SolanaWalletSnap from '@metamask/solana-wallet-snap/dist/preinstalled-snap.json';
@@ -14,6 +16,8 @@ import SolanaWalletSnap from '@metamask/solana-wallet-snap/dist/preinstalled-sna
 const PREINSTALLED_SNAPS = Object.freeze<PreinstalledSnap[]>([
   MessageSigningSnap as unknown as PreinstalledSnap,
   EnsResolverSnap as PreinstalledSnap,
+  SnapA as unknown as PreinstalledSnap,
+  SnapB as unknown as PreinstalledSnap,
   ///: BEGIN:ONLY_INCLUDE_IF(build-flask)
   AccountWatcherSnap as PreinstalledSnap,
   BitcoinWalletSnap as unknown as PreinstalledSnap,

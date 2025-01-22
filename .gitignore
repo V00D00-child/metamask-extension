@@ -86,3 +86,6 @@ html-report/
 
 # UI Integration tests
 test/integration/config/assets
+
+#Local preinstall builds
+deps
